@@ -81,6 +81,7 @@ h2 {
     border-radius: 8px;
 }
 
+
 .box-2 p {
     font-family: 'Times New Roman', serif; /* Chicago Manual of Style font */
     font-size: 12pt;
@@ -93,9 +94,9 @@ h2 {
 
 .box-2 img {
     display: block;
-    max-width: 100%; /* Ensures the image does not overflow */
+    max-width: 35%; /* Scales the image to 35% of the container width */
     height: auto;
     margin: 20px auto; /* Centers the image and adds spacing */
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for a polished look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Keeps the subtle shadow for a polished look */
 }
